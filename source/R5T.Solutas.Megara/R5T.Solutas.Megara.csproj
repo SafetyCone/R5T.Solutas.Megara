@@ -4,4 +4,8 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <NoWarn>1701;1702;1591;1573</NoWarn>
   </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\R5T.Megara.Default\source\R5T.Megara.Default\R5T.Megara.Default.csproj" />
+    <ProjectReference Include="..\..\..\R5T.Solutas.Base\source\R5T.Solutas.Base\R5T.Solutas.Base.csproj" />
+  </ItemGroup>
 </Project>
