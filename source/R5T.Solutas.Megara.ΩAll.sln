@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Solutas.Megara.Construc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Solutas.Megara.Testing", "R5T.Solutas.Megara.Testing\R5T.Solutas.Megara.Testing.csproj", "{5D69EE0B-D3CB-43EC-BDFD-871E8D3D9772}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{4163FFDF-71E9-49C5-8C56-C3CE6B24AB03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.T0064", "..\..\R5T.T0064\source\R5T.T0064\R5T.T0064.csproj", "{6B0D6ED7-2011-464F-B37F-43B1D2682A75}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,5 +62,20 @@ Global
 		{5D69EE0B-D3CB-43EC-BDFD-871E8D3D9772}.Release|x64.Build.0 = Release|Any CPU
 		{5D69EE0B-D3CB-43EC-BDFD-871E8D3D9772}.Release|x86.ActiveCfg = Release|Any CPU
 		{5D69EE0B-D3CB-43EC-BDFD-871E8D3D9772}.Release|x86.Build.0 = Release|Any CPU
+		{6B0D6ED7-2011-464F-B37F-43B1D2682A75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B0D6ED7-2011-464F-B37F-43B1D2682A75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B0D6ED7-2011-464F-B37F-43B1D2682A75}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{6B0D6ED7-2011-464F-B37F-43B1D2682A75}.Debug|x64.Build.0 = Debug|Any CPU
+		{6B0D6ED7-2011-464F-B37F-43B1D2682A75}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6B0D6ED7-2011-464F-B37F-43B1D2682A75}.Debug|x86.Build.0 = Debug|Any CPU
+		{6B0D6ED7-2011-464F-B37F-43B1D2682A75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B0D6ED7-2011-464F-B37F-43B1D2682A75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B0D6ED7-2011-464F-B37F-43B1D2682A75}.Release|x64.ActiveCfg = Release|Any CPU
+		{6B0D6ED7-2011-464F-B37F-43B1D2682A75}.Release|x64.Build.0 = Release|Any CPU
+		{6B0D6ED7-2011-464F-B37F-43B1D2682A75}.Release|x86.ActiveCfg = Release|Any CPU
+		{6B0D6ED7-2011-464F-B37F-43B1D2682A75}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6B0D6ED7-2011-464F-B37F-43B1D2682A75} = {4163FFDF-71E9-49C5-8C56-C3CE6B24AB03}
 	EndGlobalSection
 EndGlobal
